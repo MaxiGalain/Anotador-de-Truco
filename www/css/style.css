@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(30, 66, 84);
+}
+/*Pantallas 1 y 2*/
+.pantalla-1{
+    visibility: visible;
+}
+.pantalla-2{
+    display: none;
+    visibility: hidden;
+}
+
+/*Estilo de pantalla 1*/
+#sect1{
+    margin-left: 7rem;
+    margin-top:8rem;
+}
+#equipo1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 50%;
+    height: 70%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+#equipo2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 50%;
+    height: 70%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.9s;
+}
+#Btn_Val_30{
+    color: rgb(1, 150, 224);
+    border: none;
+    margin-left: 24px;
+    border-bottom: 0.3rem solid transparent;
+    width: 70px;
+    height: 30px;
+}
+#Btn_Val_24{
+    color: rgb(1, 150, 224);
+    border: none;
+    margin-left: 0px;
+    border-bottom: 0.3rem solid transparent;
+    width: 70px;
+    height: 30px;
+}
+/*Cambio de colores en los botones de estilo de juego*/
+.colorGris{
+background-color: rgb(39, 41, 51);
+}
+.colorVerde{
+    background-color: rgb(11, 16, 20);
+}
+#iniciar{
+    background-color:rgb(39, 41, 51);
+    color: rgb(238, 255, 0);
+    border: none;
+    margin-left: 1px;
+    border-bottom: 0.3rem solid transparent;
+    width: 50%;
+    height: 70%;
+}
+/*PANTALLA NUMERO 2*/
+/*#Text_Nmb_Equipo2{
+    padding-left: 80rem;
+    padding-bottom: 25rem;
+}*/
+/*#Text_Nmb_Equipo1{
+    flex-direction: column;
+    width: 20rem;
+}*/
+/*Estilo de pantalla 2*/
+/*#pantalla2{
+    display: flex;
+    flex-direction:column;
+}*/
+/*Posicionamiento de las imagenes y tamaños.*/
+img{
+    height: 3rem;
+}
+#Img_Equipo2_Fosforo_5,#Img_Equipo2_Fosforo_10,#Img_Equipo2_Fosforo_15,#Img_Equipo2_Fosforo_20,#Img_Equipo2_Fosforo_25,#Img_Equipo2_Fosforo_30{
+    padding-left: 10rem;
+}
+#Img_Equipo1_Fosforo_5,#Img_Equipo1_Fosforo_10,#Img_Equipo1_Fosforo_15,#Img_Equipo1_Fosforo_20,#Img_Equipo1_Fosforo_25,#Img_Equipo1_Fosforo_30{
+    padding-left: 4rem;
+}
+/*BOTONES Y TEXT DE INTERACCION DEL EQUIPO 1*/
+#suma1{
+    background-color:rgb(39, 41, 51);
+    color: lawngreen;
+    border: none;
+    margin-left: 0px;
+    border-bottom: 0.3rem solid transparent;
+    width: 30px;
+    height: 30px;
+}
+#resta1{
+    background-color:rgb(39, 41, 51);
+    color: lawngreen;
+    border: none;
+    margin-left: 0px;
+    border-bottom: 0.3rem solid transparent;
+    width: 30px;
+    height: 30px;
+}
+#ne1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 30%;
+    height: 24px;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+#puntos1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 30%;
+    height: 24px;;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+    /*MODALIDAD DEL JUEGO*/
+#max{
+    padding-left: 15px;
+    margin-left: 170px;
+    background-color:rgb(39, 41, 51);
+    color: rgb(238, 255, 0);
+    border: none;
+    border-bottom: 0.3rem solid transparent;
+    width: 30px;
+    height: 30px
+}
+    /*FIN DEL JUEGO*/
+#fin{
+    margin-top: 2rem;
+    margin-left: 150px;
+    background-color:rgb(39, 41, 51);
+    color: rgb(238, 255, 0);
+    border: none;
+    border-bottom: 0.3rem solid transparent;
+    width: 100px;
+    height: 30px
+}
+    /*DIVISION DE LOS PUNTOS*/
+#Separacion{
+    height: 0rem;
+    background-color: RED;
+}
+/*BOTONES Y TEXT DE INTERACCION DEL EQUIPO 2*/
+#suma2{
+    background-color:rgb(39, 41, 51);
+    color: lawngreen;
+    border: none;
+    border-bottom: 0.3rem solid transparent;
+    width: 30px;
+    height: 30px;
+}
+#rest2{
+    background-color:rgb(39, 41, 51);
+    color: lawngreen;
+    border: none;
+    margin-left: 0px;
+    border-bottom: 0.3rem solid transparent;
+    width: 30px;
+    height: 30px;
+}
+#ne2{
+    margin-left: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 30%;
+    height: 24px;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+#puntos2{
+    margin-left: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 150, 224);
+    border-radius: 0.2rem;
+    background-color: rgb(39, 41, 51);
+    border: none;
+    width: 30%;
+    height: 24px;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
